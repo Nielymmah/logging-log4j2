@@ -23,7 +23,7 @@
     <groupId>org.apache.logging</groupId>
     <artifactId>logging-parent</artifactId>
     <version>9</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.apache.logging.log4j</groupId>
@@ -312,8 +312,8 @@
     <!-- Fixed `project.build.outputTimestamp` is required for reproducible builds: https://maven.apache.org/guides/mini/guide-reproducible-builds.html -->
     <project.build.outputTimestamp>1676697577</project.build.outputTimestamp>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
-    <module.name />
+    <projectDir/>
+    <module.name/>
 
     <!-- ========================
          Site-specific properties
@@ -420,7 +420,7 @@
     <jansi.version>2.4.0</jansi.version>
     <java-allocation-instrumenter.version>3.3.3</java-allocation-instrumenter.version>
     <jconsole.version>1.7.0</jconsole.version>
-    <jctools.version>4.0.1</jctools.version>
+    <jctools.version>4.0.5</jctools.version>
     <je.version>18.3.12</je.version>
     <jeromq.version>0.5.3</jeromq.version>
     <jetty.version>9.4.52.v20230823</jetty.version>
@@ -1390,7 +1390,7 @@
             <maxmem>1024</maxmem>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
           </configuration>
         </plugin>
@@ -1548,7 +1548,7 @@
             </goals>
             <configuration>
               <rules>
-                <requireUpperBoundDeps />
+                <requireUpperBoundDeps/>
               </rules>
             </configuration>
           </execution>
