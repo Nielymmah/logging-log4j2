@@ -23,7 +23,7 @@
     <groupId>org.apache.logging</groupId>
     <artifactId>logging-parent</artifactId>
     <version>9</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.apache.logging.log4j</groupId>
@@ -312,8 +312,8 @@
     <!-- Fixed `project.build.outputTimestamp` is required for reproducible builds: https://maven.apache.org/guides/mini/guide-reproducible-builds.html -->
     <project.build.outputTimestamp>1676697577</project.build.outputTimestamp>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
-    <module.name />
+    <projectDir/>
+    <module.name/>
 
     <!-- ========================
          Site-specific properties
@@ -448,7 +448,7 @@
     <osgi.api.version>6.0.0</osgi.api.version>
     <pax-exam.version>4.13.5</pax-exam.version>
     <plexus-utils.version>3.5.0</plexus-utils.version>
-    <slf4j.version>1.7.36</slf4j.version>
+    <slf4j.version>2.0.15</slf4j.version>
     <spring-boot.version>2.7.15</spring-boot.version>
     <spring-framework.version>5.3.29</spring-framework.version>
     <system-stubs.version>2.0.2</system-stubs.version>
@@ -1390,7 +1390,7 @@
             <maxmem>1024</maxmem>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
           </configuration>
         </plugin>
@@ -1548,7 +1548,7 @@
             </goals>
             <configuration>
               <rules>
-                <requireUpperBoundDeps />
+                <requireUpperBoundDeps/>
               </rules>
             </configuration>
           </execution>
