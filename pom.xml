@@ -23,7 +23,7 @@
     <groupId>org.apache.logging</groupId>
     <artifactId>logging-parent</artifactId>
     <version>9</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.apache.logging.log4j</groupId>
@@ -312,8 +312,8 @@
     <!-- Fixed `project.build.outputTimestamp` is required for reproducible builds: https://maven.apache.org/guides/mini/guide-reproducible-builds.html -->
     <project.build.outputTimestamp>1676697577</project.build.outputTimestamp>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
-    <module.name />
+    <projectDir/>
+    <module.name/>
 
     <!-- ========================
          Site-specific properties
@@ -388,7 +388,7 @@
     <commons-lang3.version>3.13.0</commons-lang3.version>
     <commons-logging.version>1.2</commons-logging.version>
     <!-- `com.conversantmedia:disruptor` version 1.2.16 requires Java 9: -->
-    <conversant.disruptor.version>1.2.15</conversant.disruptor.version>
+    <conversant.disruptor.version>1.2.21</conversant.disruptor.version>
     <disruptor.version>3.4.4</disruptor.version>
     <elasticsearch.version>7.17.13</elasticsearch.version>
     <embedded-ldap.version>0.9.0</embedded-ldap.version>
@@ -398,11 +398,11 @@
     <flume.version>1.11.0</flume.version>
     <groovy.version>3.0.19</groovy.version>
     <guava.version>32.1.2-jre</guava.version>
-    <h2.version>2.2.222</h2.version>
+    <h2.version>2.3.232</h2.version>
     <hadoop.version>1.2.1</hadoop.version>
     <hamcrest.version>2.2</hamcrest.version>
     <HdrHistogram.version>2.1.12</HdrHistogram.version>
-    <hsqldb.version>2.7.2</hsqldb.version>
+    <hsqldb.version>2.7.3</hsqldb.version>
     <jackson-bom.version>2.15.2</jackson-bom.version>
     <!-- Override the version in Jakarta EE 9 BOM: -->
     <jakarta-activation.version>2.1.2</jakarta-activation.version>
@@ -420,7 +420,7 @@
     <jansi.version>2.4.0</jansi.version>
     <java-allocation-instrumenter.version>3.3.3</java-allocation-instrumenter.version>
     <jconsole.version>1.7.0</jconsole.version>
-    <jctools.version>4.0.1</jctools.version>
+    <jctools.version>4.0.5</jctools.version>
     <je.version>18.3.12</je.version>
     <jeromq.version>0.5.3</jeromq.version>
     <jetty.version>9.4.52.v20230823</jetty.version>
@@ -435,14 +435,14 @@
     <lightcouch.version>0.2.0</lightcouch.version>
     <log4j.version>1.2.17</log4j.version>
     <log4j2-cachefile-transformer.version>2.15.0</log4j2-cachefile-transformer.version>
-    <log4j2-ecs-layout.version>1.5.0</log4j2-ecs-layout.version>
-    <logback.version>1.2.12</logback.version>
+    <log4j2-ecs-layout.version>1.6.0</log4j2-ecs-layout.version>
+    <logback.version>1.5.7</logback.version>
     <maven.version>3.9.0</maven.version>
     <mockito.version>4.11.0</mockito.version>
     <mongodb.version>4.10.2</mongodb.version>
     <netty.version>4.1.97.Final</netty.version>
     <org.eclipse.osgi.version>3.13.0.v20180226-1711</org.eclipse.osgi.version>
-    <org.eclipse.persistence.version>2.7.11</org.eclipse.persistence.version>
+    <org.eclipse.persistence.version>2.7.15</org.eclipse.persistence.version>
     <oro.version>2.0.8</oro.version>
     <!-- The OSGi API version MUST always be the MINIMUM version Log4j supports: -->
     <osgi.api.version>6.0.0</osgi.api.version>
@@ -1390,7 +1390,7 @@
             <maxmem>1024</maxmem>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
           </configuration>
         </plugin>
@@ -1548,7 +1548,7 @@
             </goals>
             <configuration>
               <rules>
-                <requireUpperBoundDeps />
+                <requireUpperBoundDeps/>
               </rules>
             </configuration>
           </execution>
